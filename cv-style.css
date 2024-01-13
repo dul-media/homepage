@@ -1,0 +1,150 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin : 0px;
+    padding : 0px;
+}
+
+a {
+    color : black;
+    text-decoration : none;
+}
+
+header, main, footer {
+    margin : 5%;
+}
+
+h1 {
+    width : 100%;
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+.header-container {
+    display : flex;
+    justify-content: space-around;
+}
+
+.header-container a {
+    width : 50%;
+    text-align : center;
+}
+
+.header-container a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    padding : 10px 0px;
+    border-bottom : solid black 1px;
+    border-top : solid black 1px;
+}
+
+.language {
+    position : absolute;
+    top : 20px;
+    right : 5%;
+}
+
+.language p {
+    font-size : 13px;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    list-style-type : none;
+}
+
+.cv {
+    margin-right : 20px;
+    padding : 20px 0px 20px 0px;
+}
+
+.line {  
+    border-bottom : solid black 1px;
+}
+
+h3 {
+    font-size : 13px;
+    /* font-weight : bold; */
+    margin-top : 0px;
+    margin-bottom : 15px;
+}
+
+.cv ol {
+    margin : 0px;
+    padding : 0 0 0 10px;
+}
+
+.cv ol li {
+    display : flex;
+    flex-flow : wrap;
+    align-items : center;
+    margin-bottom : 5px;
+}
+
+ol li p {
+    margin : 0px;
+    margin-right : 10px;
+}
+
+ol li span {
+    font-size : 9px;
+    font-weight : normal;
+}
+
+.cv-year{
+    font-size : 10px;
+    color : gray;
+}
+.cv-main{
+    font-size : 12px;
+    /* font-weight : bold; */
+}
+.cv-detail{
+    font-size : 10px;
+    color : gray;
+}
+
+.container {
+    display : grid;
+    grid-template-columns : 200px 200px;
+    grid-template-rows: auto auto;
+    justify-content : center;
+}
+
+.container h4{
+    font-size : 13px;
+    text-align : end;
+    margin-right : 15px; 
+}
+
+.container p {
+    font-size : 13px;
+}
+
+.container p a {
+    text-decoration: underline;
+}
+
+.pdf {
+    width : 100%;
+}
+
+
+
+.footer-container {
+    display : flex;   
+    justify-content : space-around; 
+    font-size : 13px;
+}
+
+.footer-container a {
+    text-decoration : underline;
+}
+
+.mail {
+    text-decoration: underline;
+}
